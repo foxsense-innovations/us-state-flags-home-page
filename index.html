@@ -1140,7 +1140,7 @@
   showFlag={true} 
   showName={true} 
 />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 <USStateFlags 
   state="TX" 
@@ -1164,7 +1164,7 @@
 
 // Large (225px) - Hero displays
 <USStateFlags state="TX" showFlag={true} flagSize="lg" />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 // Extra Small (16px) - Perfect for list items
 <USStateFlags state="TX" showFlag={true} flagSize="xs" />
@@ -1209,7 +1209,7 @@
   showAbbreviation={true}
   showCapital={true}
 />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 <USStateFlags 
   state="FL" 
@@ -1240,7 +1240,7 @@
   layout="vertical"
   flagSize="lg"
 />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 <USStateFlags 
   state="NY" 
@@ -1286,7 +1286,7 @@
     borderColor: '#4c63d2'
   }}
 />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 <USStateFlags 
   state="CA" 
@@ -1349,7 +1349,7 @@
   showCapital={true}
   onClick={handleStateClick}
 />`,
-                    tsCode: `import { USStateFlags, StateData } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags, StateData } from 'us-state-flags';
 
 const handleStateClick = (stateData: StateData) => {
   console.log('Clicked state:', stateData);
@@ -1390,7 +1390,7 @@ const handleStateClick = (stateData: StateData) => {
   showFlag={false} 
   flagSize="lg" 
 />`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 // Invalid state code
 <USStateFlags state="INVALID" showName={true} />
@@ -1432,7 +1432,7 @@ const handleStateClick = (stateData: StateData) => {
     />
   ))}
 </div>`,
-                    tsCode: `import { USStateFlags } from 'us-state-flags/components';
+                    tsCode: `import { USStateFlags } from 'us-state-flags';
 
 const states = ['TX', 'FL', 'NY', 'CA', 'WA'];
 
